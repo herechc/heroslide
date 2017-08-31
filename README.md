@@ -2,7 +2,7 @@
 判断上下滑动的插件
 # 使用
 ```javascript
-	var slide=new heroSlide()
+var slide=new heroSlide()
 ```	
 # 详解
 ```javascript
