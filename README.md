@@ -1,9 +1,12 @@
 # 简介	
 判断上下滑动的插件
-#使用
+# 使用
+```javascript
 	var slide=new heroSlide()
-#详解
-	_move: function(e) {
+```	
+# 详解
+```javascript
+_move: function(e) {
     var that = this;
     if (that.istimer) return;
       var point = hasTouch ? e.touches[0] : e,
@@ -25,5 +28,6 @@
       that.isdown = true;
       that.isMove = false;
     }
-  },
+  }
+```
 	
